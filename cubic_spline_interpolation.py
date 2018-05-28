@@ -1,16 +1,6 @@
 # Natural cubic spline interpolation
 import numpy as np
-import scipy.interpolate
-import matplotlib.pyplot as plt
 
-"""
-time_series = [
-    {'x': 0, 'y': 0},
-    {'x': 1, 'y': 0.5},
-    {'x': 2, 'y': 2},
-    {'x': 3, 'y': 1.5}
-]
-"""
 
 time_series = [
     {'x': 1, 'y': 1.25},
@@ -18,18 +8,6 @@ time_series = [
     {'x': 10, 'y': 1},
     {'x': 20, 'y': 2.12}
 ]
-"""
-
-time_series = [
-    {'x': 0, 'y': 0},
-    {'x': 5, 'y': 10},
-    {'x': 10, 'y': 7},
-    {'x': 15, 'y': 4},
-    {'x': 20, 'y': 6},
-    {'x': 25, 'y': 8},
-    {'x': 30, 'y': 6}
-]
-"""
 
 
 def delta_x(i):
