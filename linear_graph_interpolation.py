@@ -32,7 +32,7 @@ time_series = [
 
 def linear_interpolation(time_series):
     """
-    Takes as input a set of (x_i, y_i) points and use linear interpolations
+    Takes as input a set of (x_i, y_i) points and uses linear interpolations
     between the input points to give an estimate of the y values for all
     integer values of x between the input points.
     :param time_series: an array containing input points. Each input point
