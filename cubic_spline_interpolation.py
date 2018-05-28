@@ -27,7 +27,6 @@ def cubic_spline(time_series):
     Takes as input a set of (x_i, y_i) points and uses cubic splines interpolation
     between the input points to give an estimate of the y values for all
     integer values of x between the input points.
-    :param time_series: between the input points.
     :param time_series: an array containing input points. Each input point
     is a dictionary of the form {'x': 1, 'y': 1.25}.
     :return: an array containing the input values along with the predicted values
